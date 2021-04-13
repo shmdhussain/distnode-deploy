@@ -3,7 +3,7 @@ module.exports = class Recipe {
         this.id = Number(id);
         this.name = null;
     }
-    async hydrate() { // Pretend DB Lookup
+    async hydrate() { // Pretendd DB Lookup
         this.name = `Recipe: # ${ this . id } `;
     }
     toJSON() {
